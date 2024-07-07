@@ -71,7 +71,7 @@ func Logout(c *gin.Context) {
 		MaxAge: -1,
 	})
 
-	c.JSON(http.StatusOK, gin.H{"message": "Logout success"})
+	c.JSON(http.StatusOK, gin.H{"message": "Logout success."})
 }
 
 func GetUser(c *gin.Context) {
